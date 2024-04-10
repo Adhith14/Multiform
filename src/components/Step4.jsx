@@ -16,11 +16,6 @@ const Step4 = ({ onNext }) => {
     setSelectedOption(option);
   };
 
-  const handleContinue = () => {
-    if (selectedOption) {
-      onNext(selectedOption);
-    }
-  };
 
   return (
     <div className="min-h-screen flex flex-col justify-center">
