@@ -13,7 +13,7 @@ const Step3 = () => {
         <div className="mb-8">
           <img
             src='/images/pulley.png'
-           
+            alt='Pulley'
             className="mx-auto h-48"
           />
         </div>
